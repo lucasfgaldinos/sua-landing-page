@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico">
+    <title>Sua Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sua Landing Page</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#vantagens">Vantagens</a>
+            <a class="orcamento" onclick="mostrarFormulario()">Faça um orçamento</a>
+        </nav>
+
+        <button onclick="mostrarMenu()" class="menu-button">
+            <img src="./imgs/menu-icon.png" alt="Ícone de menu">
+        </button>
+    </header>
+
+    <main id="inicio">
+        <section>
+            <h2>Crie <span>Sua Landing Page</span> para aumentar o potencial do seu <span>negócio</span></h2>
+            <div>
+                <p>
+                    <img src="./imgs/check.png" alt="Símbolo de check" />
+                    Seu negócio mais <b>profissional</b> e <b>atraente</b>
+                </p>
+                <p>
+                    <img src="./imgs/check.png" alt="Símbolo de check" />
+                    Coleta de <b>contatos</b> de <b>clientes</b> em potencial
+                </p>
+                <p>
+                    <img src="./imgs/check.png" alt="Símbolo de check" />
+                    Uma página <b>direta</b> e <b>objetiva</b>
+                </p>
+            </div>
+        </section>
+
+        <img src="./imgs/business.jpg" alt="Notebook">
+    </main>
+
+    <section id="sobre" class="sobre">
+        <img src="./imgs/homem-com-notebook.jpg" alt="Homem usando um notebook">
+
+        <div class="text">
+            <h2>O que é uma <span>Landing Page</span>?</h2>
+            <p>Uma <span>landing page</span> (traduzido do inglês "página de aterrisagem") é o primeiro contato que um
+                visitante tem ao acessar um site. Elas são eficazes por focar apenas no principal objetivo do site,
+                evitando distrações como excesso de textos, menus dispensáveis, entre outras para garantir a conversão
+                desejada.</p>
+        </div>
+    </section>
+
+    <section id="vantagens" class="vantagens">
+        <div class="text">
+            <div class="content">
+                <h2>Qual a vantagen de ter uma <span>Landing Page</span>?</h2>
+                <p>Com uma <span>Landing Page</span> seu negócio fica mais profissional,
+                    mais atraente, ganha mais visibilidade e é ótimo para seus clientes
+                    conhecerem melhor o seu <span>negócio</span>, <span>produto</span> ou <span>serviço</span>!
+                </p>
+            </div>
+
+            <img src="./imgs/mulher-com-notebook.jpg" alt="Mulher usando um notebook e um celular">
+        </div>
+
+        <div class="vantagens-detalhadas">
+            <h2><span>Sua Landing Page</span> é a vitrine do seu negócio e o primeiro contato com o seu cliente.</h2>
+
+            <p>Ter um site não é essencial apenas para grandes empresas. Pequenos negócios também estão ganhando espaço
+                na
+                internet,
+                pois sabem que a maior parte dos consumidores hoje em dia estão on-line. O que antes era apenas uma
+                tendência tornou-se
+                realidade: consumidores e potenciais clientes estão on-line, estudando, trabalhando, se relacionando, se
+                divertindo e,
+                principalmente, fazendo negócios e comprando produtos e serviços. Criar um site para sua empresa,
+                portanto,
+                é uma forma
+                de divulgar o seu negócio, atrair o seu potencial consumidor e torná-lo, efetivamente, um cliente. Quem
+                ainda não tem
+                presença on-line está perdendo vendas e oportunidades.
+            </p>
+            <br>
+            <p>
+                <span>Apenas 2 motivos para o seu negócio ter um site:</span>
+            </p>
+            <br>
+            <p>
+                <span>1.</span> <b>Seu site é a vitrine do seu negócio</b>
+                <br>
+                Pelo site o cliente pode conhecer melhor o que está comprando e
+                obtendo informações relevantes.
+            </p>
+            <br>
+            <p>
+                <span>2.</span> <b>Seu site on-line 24 horas</b>
+                <br>
+                Um site não tem horários comerciais e não fecha, possibilitando o
+                consumidor, obter informações e até comprar um produto ou serviço a qualquer hora.
+            </p>
+        </div>
+    </section>
+
+    <section class="carrossel-container">
+        <h2><span>Sua Landing Page</span> pode ser sobre qualquer negócio</h2>
+
+        <div class="carrossel" style="--quantity: 7">
+            <div class="item" style="--delay: 0s"><img src="./imgs/imgs-carrossel/academia.jpg" alt=""></div>
+            <div class="item" style="--delay: 1s"><img src="./imgs/imgs-carrossel/advogado.jpg" alt=""></div>
+            <div class="item" style="--delay: 2s"><img src="./imgs/imgs-carrossel/aviao.jpg" alt=""></div>
+            <div class="item" style="--delay: 3s"><img src="./imgs/imgs-carrossel/burger.jpg" alt=""></div>
+            <div class="item" style="--delay: 4s"><img src="./imgs/imgs-carrossel/business.jpg" alt=""></div>
+            <div class="item" style="--delay: 5s"><img src="./imgs/imgs-carrossel/cabeleireiro.jpg" alt=""></div>
+            <div class="item" style="--delay: 6s"><img src="./imgs/imgs-carrossel/dentista.jpg" alt=""></div>
+        </div>
+
+        <div class="carrossel reverso" style="--quantity: 7">
+            <div class="item" style="--delay: 0s"><img src="./imgs/imgs-carrossel/fotografia.jpg" alt=""></div>
+            <div class="item" style="--delay: 1s"><img src="./imgs/imgs-carrossel/maquiagem.jpg" alt=""></div>
+            <div class="item" style="--delay: 2s"><img src="./imgs/imgs-carrossel/motorista.jpg" alt=""></div>
+            <div class="item" style="--delay: 3s"><img src="./imgs/imgs-carrossel/musicos.jpg" alt=""></div>
+            <div class="item" style="--delay: 4s"><img src="./imgs/imgs-carrossel/padaria.jpg" alt=""></div>
+            <div class="item" style="--delay: 5s"><img src="./imgs/imgs-carrossel/pizza.jpg" alt=""></div>
+            <div class="item" style="--delay: 6s"><img src="./imgs/imgs-carrossel/roupas.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="conteudo">
+            <div class="redes">
+                <div>
+                    <span>Sua Landing Page</span>
+                </div>
+
+                <div class="links">
+                    <a class="github" target="_blank" href="https://github.com/lucasfgaldinos"><i
+                            class='bx bxl-github bx-md'></i></a>
+                    <a class="instagram" target="_blank" href="https://www.instagram.com/lucasfgs14/"><i
+                            class='bx bxl-instagram bx-md'></i></a>
+                    <a class="facebook"><i class='bx bxl-facebook-circle bx-md'></i></a>
+                    <a class="twitter"><i class='bx bxl-twitter bx-md'></i></a>
+                </div>
+            </div>
+
+            <div class="topicos">
+                <p>Tópicos</p>
+
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                </ul>
+            </div>
+
+            <div class="contatos">
+                <p>Contatos</p>
+
+                <ul>
+                    <li>
+                        <a target="_blank" class="whatsapp" href="https://wa.me/5516981272448">
+                            <i class='bx bxl-whatsapp bx-md'></i>
+                            Whatsapp
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" class="email" href="mailto:lucasfgaldinos@outlook.com">
+                            <i class='bx bx-envelope bx-md'></i>
+                            Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="final">
+            <p>&copy; 2024 <span>Sua Landing Page</span></p>
+            <div></div>
+            <p><span>Lucas Galdino</span></p>
+        </section>
+    </footer>
+
+    <a class="link-whatsapp" target="_blank" href="https://wa.me/5516981272448"><img src="./imgs/whatsapp.png"
+            alt="Ícone do whatsapp"></a>
+
+    <div class="mascara"></div>
+
+    <form action="https://formcarry.com/s/FB-Awjrginm" method="POST">
+        <h3>Faça um orçamento <br> ou <br> tire alguma dúvida</h3>
+
+        <input autocomplete="off" required placeholder="Digite seu nome" type="text" name="nome">
+
+        <input autocomplete="off" required placeholder="Digite seu telefone" type="tel" name="tel">
+
+        <textarea autocomplete="off" required name="duvida-orcamento"
+            placeholder="Faça um orçamento ou tire alguma dúvida"></textarea>
+
+        <button class="submit" type="submit">Enviar</button>
+
+        <button onclick="ocultarFormulario()" class="close" type="button"><i class='bx bx-x'></i></button>
+    </form>
+
+    <div onclick="ocultarMenu()" class="menu-links">
+        <a onclick="ocultarMenu()" href="#inicio">Início</a>
+        <a onclick="ocultarMenu()" href="#sobre">Sobre</a>
+        <a onclick="ocultarMenu()" href="#vantagens">Vantagens</a>
+        <a class="orcamento" onclick="mostrarFormulario()">Faça um orçamento</a>
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
